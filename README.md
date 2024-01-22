@@ -7,7 +7,7 @@
 -   This research was presented at the [VCU Poster Symposium for
     Undergraduate Research and Creativity](https://academics.provost.vcu.edu/transformative-learning/undergraduate-research/poster/). The poster from this presentation is `UROP Poster.pdf`
 
--   Some of thenumerical results for this research were obtained using
+-   Some of the numerical results for this research were obtained using
     the Teal Cluster from VCU’s High Performance Computing Facility.
     Information about the facility [can be found
     here](https://research.vcu.edu/cores/hprc/facilities/)
