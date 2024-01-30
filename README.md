@@ -57,21 +57,21 @@ The two types of initial conditions we considered were:
 
 The types of kernels we considered are as follows.
 
--   the “spherical kernel" which uses parameters $p$ and $q$
+-   the $\text{“spherical kernel"}$ which uses parameters $p$ and $q$
 
     -  this kernel is the same as the $c$-norm elliptical kernel where $a = 1$, $b = 1$, and $c = 2$
 
--   the “elliptical kernel" which uses parameters $p$, $q$, $a$, $b$
+-   the $\text{“elliptical kernel"}$ which uses parameters $p$, $q$, $a$, $b$
 
     -   this kernel is the same as the $c$-norm elliptical kernel where $c = 2$
 
--   the “elliptical $c$-norm kernel" which uses parameters $p$, $q$, $a$, $b$, and $c$
+-   the $\text{“elliptical }c\text{-norm kernel"}$ which uses parameters $p$, $q$, $a$, $b$, and $c$
 
     -   the files `parameterizedSystemGrad.m`, `paramGeneralLcGrad.m`,
         and `paramL1Grad.m` are used to compute the gradient of this
         kernel
 
--   the “$\infty$-norm kernel" which uses parameters $p$ and $q$
+-   the $\text{“}\infty\text{-norm kernel"}$ which uses parameters $p$ and $q$
 
     -   the file `LinfODEsolverSystemGrad.m` is used to compute the
         gradient of this kernel
@@ -79,7 +79,7 @@ The types of kernels we considered are as follows.
 **Spherical Kernel**
 
 Consider real numbers $p$ and $q$ with $q > p > -2$. The
-“spherical kernel" is defined as
+$\text{“spherical kernel"}$ is defined as
 $$K(x,y) = \frac{(x^2 + y^2)^{q/2}}{q} - \frac{(x^2+y^2)^{p/2}}{p}.$$
 The gradient of this kernel is
 
@@ -107,7 +107,7 @@ $$
 
 **Elliptical Kernel**
 
-Let $a$ and $b$ be positive real numbers. The “elliptical kernel" is
+Let $a$ and $b$ be positive real numbers. The $\text{“elliptical kernel"}$ is
 defined as
 $$K(x,y) = \frac{(a^2x^2+b^2y^2)^{q/2}}{q} - \frac{(a^2x^2+b^2y^2)^{p/2}}{p}.$$
 The gradient of this kernel is
@@ -136,8 +136,7 @@ $$
 
 **Elliptical $c$-Norm Kernel**
 
-Let $c$ be a real number with $c \geq 1$, we define the “elliptical
-$c$-norm kernel" as
+Let $c$ be a real number with $c \geq 1$, we define the $\text{“elliptical }c\text{-norm kernel"}$ as
 $$K(x,y) = \frac{(a^c\|x^c\|+b^c\|y^c\|)^{q/c}}{q} - \frac{(a^c\|x^c\|+b^c\|y^c\|)^{p/c}}{p}.$$
 The gradient of this kernel is
 
@@ -165,7 +164,7 @@ $$
 
 **$\infty$-Norm Kernel**
 
-The “$\infty$-norm kernel" is
+The $\text{“}\infty\text{-norm kernel"}$ is
 $$K(x,y) = \frac{\max(\|x\|,\|y\|)^q}{q} - \frac{\max(\|x\|,\|y\|)^p}{p}.$$
 Note that we do not use the *a* and *b* parameters in this version of
 the kernel. Using the fact that
