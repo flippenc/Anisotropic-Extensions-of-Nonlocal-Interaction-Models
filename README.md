@@ -1,16 +1,22 @@
+# Anisotropic Extensions of Nonlocal Interaction Models
+
 **Research Funding and Support Information:**
 
--   This research was funded by a VCU UROP Fellowship during the Summer
-    of 2021. Information about this fellowship [can be found
+-   This research was conducted during the summer of 2021 under the leadership of Dr. Ihsan Topaloglu
+
+-   This research was funded by a VCU UROP Fellowship. Information about this fellowship [can be found
     here](https://academics.provost.vcu.edu/transformative-learning/undergraduate-research/urop-fellowship/)
 
 -   This research was presented at the [VCU Poster Symposium for
-    Undergraduate Research and Creativity](https://academics.provost.vcu.edu/transformative-learning/undergraduate-research/poster/). The poster from this presentation is `UROP Poster.pdf`
+    Undergraduate Research and Creativity](https://academics.provost.vcu.edu/transformative-learning/undergraduate-research/poster/) in the spring of 2022. The poster from this presentation is `UROP Poster.pdf`
 
 -   Some of the numerical results for this research were obtained using
     the Teal Cluster from VCU’s High Performance Computing Facility.
     Information about the facility [can be found
     here](https://research.vcu.edu/cores/hprc/facilities/)
+
+-   The code and data in this repository is the work
+    of Christopher Flippen unless otherwise stated
 
 **Poster Abstract:**
 
